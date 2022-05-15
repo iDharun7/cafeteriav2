@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <h1>StarDucks</h1>
+    <p>Your product has been added to cart . Please add below details for delivery </p>
+    <form class="contact-form">
+      <label for="">Name</label><br />
+      <input class="name" type="text" placeholder="name" /><br />
+      <label for="">Email</label><br />
+      <input class="email" type="email" placeholder="email" /><br />
+      <label for="">Address</label><br />
+      <textarea
+        class="address"
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Type Your Address"
+      ></textarea
+      ><br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>

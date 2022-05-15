@@ -1,0 +1,27 @@
+.container
+{
+    margin-top: 150px;
+}
+.col-md-7 h2
+{
+	color: #555;
+}
+.rupees
+{
+	color: #FE980F;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 6px;
+}
+input
+{
+	border-radius: 1px solid #ccc;
+	font-weight: bold;
+	height: 33px;
+	text-align: center;
+	width: 70px;
+}
+.carousel-item img{
+	height: 70% ;
+	border-radius: 20px;
+}
